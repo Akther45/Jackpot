@@ -1,0 +1,467 @@
+/* extra small start */
+@media (max-width : 575px){
+    .navbar .navbar-brand{
+        margin-top: -30px;
+    }
+    .navbar-toggler{
+        border: 2px solid #ff39dc;
+        margin-right: 15px;
+        margin-top: 35px;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-toggler span{
+        color: #fdb125;
+    }
+    .navbar .navbar-nav {
+        background: rgba(88, 13, 201, 0.6);
+    }
+    .navbar .navbar-nav .nav-item{
+        margin: 0 auto;
+        padding-top: 25px ;
+    }
+    .navbar .navbar-nav .nav-item .nav-link{
+        color: #fdb125 ;
+        transition: all linear 0.4s;
+    }
+    .navbar .navbar-nav .nav-item .nav-link:hover{
+        color: #ff39dc ;
+    }
+    .navbar .navbar-nav .nav-item .btn {
+        margin-left: -33px ;
+        margin-bottom:10px;
+    }
+    #banner{
+        padding-top: 140px;
+        padding-bottom: 130px;
+    }
+    #banner .banner-img {
+        margin-top: 0px ;
+    }
+    #banner .banner-img img {
+        margin-left: -15px;
+    }
+    #banner .banner-content {
+        padding-top: 0 ;
+    }
+    #banner .banner-content h6 {
+        font-size: 16px ;
+        margin-left: 0px ;
+    }
+    #banner .banner-content h1 {
+        font-size: 150px ;
+        margin: -24px -7px ;
+    }
+    #banner .banner-content p {
+        font-size : 12px;
+        margin-top : 10px;
+        margin-right : 40px;
+        padding : 0;
+    }
+    #banner .banner-content a {
+        margin-left: 17%;
+    }
+    .button {
+        padding: 4px 22px;
+        font-size: 20px;
+    }
+    #game .entry-part {
+        transform: translateY(-50%);
+    }
+    #game .entry-part .box {
+        padding: 10px 0;
+    }
+    #game .entry-part .box h2 {
+        font-size: 32px;
+    }
+    #game .entry-part .box h4 {
+        font-size: 24px;
+    }
+    #game .entry-part .box p {
+        font-size: 12px;
+    }
+    #spin {
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+    #spin .spin-img{
+        margin-top: 40px;
+        text-align: center;
+    }
+    #spin .spin-img img{
+        width: 65%;
+    }
+    #spin .spin-content {
+        padding-top: 45px;
+        margin-left: 66px;
+    }
+    #spin .spin-content .heading {
+        margin-bottom: 35px;
+        margin-left: -40px;
+        text-align: center;
+    }
+    #pricing {
+        padding-bottom: 60px;
+    }
+    #pricing .price-box {
+        margin-top: 55px;
+    }
+    #pricing .price-box .choose {
+        left: 37%;
+    }
+    #pricing .price-box .choose a {
+        padding: 10px 24px;
+    }
+    #question {
+        padding-top: 50px;
+        padding-bottom: 65px;
+    }
+    #question .question-part {
+        margin-bottom: 60px;
+    }
+    #question .question-part .accordion .accordion-item .accordion-button {
+        font-size: 16px;
+    }
+    #question .tournament .timer {
+        font-size: 16px;
+    }
+    #question .tournament .timer .time {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    #question .tournament .timer {
+        padding-left: 130px;
+        margin-left: 80px;
+    }
+    #payment form {
+        margin-bottom: 30px;
+    }
+    #payment .p-list ul li {
+        margin-right: 10px;
+    }
+    #footer .jackpot{
+        margin-bottom: 60px;
+    }
+    #footer .link ul li {
+        margin-bottom: 5px;
+    }
+}
+/* extra small end */
+
+/*  small start */
+@media (min-width: 576px) and (max-width: 767px){
+    .navbar .navbar-brand{
+        margin-top: -30px;
+    }
+    .navbar-toggler{
+        border: 2px solid #ff39dc;
+        margin-right: 15px;
+        margin-top: 35px;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-toggler span{
+        color: #fdb125;
+    }
+    .navbar .navbar-nav {
+        background: rgba(88, 13, 201, 0.6);
+    }
+    .navbar .navbar-nav .nav-item{
+        margin: 0 auto;
+        padding-top: 25px ;
+    }
+    .navbar .navbar-nav .nav-item .nav-link{
+        color: #fdb125 ;
+        transition: all linear 0.4s;
+    }
+    .navbar .navbar-nav .nav-item .nav-link:hover{
+        color: #ff39dc ;
+    }
+    .navbar .navbar-nav .nav-item .btn {
+        margin-left: -33px ;
+        margin-bottom:10px;
+    }
+    #banner{
+        padding-top: 140px;
+        padding-bottom: 135px;
+    }
+    #banner .banner-img {
+        margin-top: 0px ;
+    }
+    #banner .banner-img img {
+        margin-left: -15px;
+    }
+    #banner .banner-content {
+        margin-left: 25px;
+    }
+    #banner .banner-content {
+        padding-top: 0 ;
+    }
+    #banner .banner-content h6 {
+        font-size: 16px ;
+        margin-left: 0px ;
+    }
+    #banner .banner-content h1 {
+        font-size: 150px ;
+        margin: -24px -7px ;
+    }
+    #banner .banner-content p {
+        font-size : 12px;
+        margin-top : 10px;
+        margin-right : 25px;
+        padding : 0;
+    }
+    #banner .banner-content a {
+        margin-left: 40px;
+    }
+    .button {
+        padding: 4px 22px;
+        font-size: 20px;
+    }
+    #game .entry-part {
+        transform: translateY(-50%);
+    }
+    #game .entry-part .box {
+        padding: 10px 0;
+    }
+    #game .entry-part .box h2 {
+        font-size: 32px;
+    }
+    #game .entry-part .box h4 {
+        font-size: 24px;
+    }
+    #game .entry-part .box p {
+        font-size: 12px;
+    }
+    #spin {
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+    #spin .spin-img{
+        margin-top: 40px;
+        text-align: center;
+    }
+    #spin .spin-img img{
+        width: 65%;
+    }
+    #spin .spin-content {
+        padding-top: 45px;
+        margin-left: 66px;
+    }
+    #spin .spin-content .heading {
+        margin-bottom: 35px;
+        margin-left: -40px;
+        text-align: center;
+    }
+    #pricing {
+        padding-bottom: 60px;
+    }
+    #pricing .price-box {
+        margin-top: 55px;
+    }
+    #question {
+        padding-top: 50px;
+        padding-bottom: 65px;
+    }
+    #question .question-part {
+        margin-bottom: 60px;
+    }
+    #question .question-part .accordion .accordion-item .accordion-button {
+        font-size: 16px;
+    }
+    #question .tournament .timer {
+        font-size: 16px;
+    }
+    #question .tournament .timer .time {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    #question .tournament .timer {
+        padding-left: 130px;
+        margin-left: 80px;
+    }
+    #payment form {
+        margin-bottom: 30px;
+    }
+    #footer .jackpot{
+        margin-bottom: 60px;
+    }
+    #footer .link ul li {
+        margin-bottom: 5px;
+    }
+}
+/*  small end */
+/*  medium start */
+@media (min-width: 768px) and (max-width: 991px){
+    .navbar .navbar-brand{
+        margin-top: -30px;
+    }
+    .navbar-toggler{
+        border: 2px solid #ff39dc;
+        margin-right: 15px;
+        margin-top: 35px;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-toggler span{
+        color: #fdb125;
+    }
+    .navbar .navbar-nav {
+        background: rgba(88, 13, 201, 0.6);
+    }
+    .navbar .navbar-nav .nav-item{
+        margin: 0 auto;
+        padding-top: 25px ;
+    }
+    .navbar .navbar-nav .nav-item .nav-link{
+        color: #fdb125 ;
+        transition: all linear 0.4s;
+    }
+    .navbar .navbar-nav .nav-item .nav-link:hover{
+        color: #ff39dc ;
+    }
+    .navbar .navbar-nav .nav-item .btn {
+        margin-left: -33px ;
+        margin-bottom:10px;
+    }
+    #banner{
+        padding-top: 140px;
+    }
+    #banner .banner-img {
+        margin-top: 0px ;
+    }
+    #banner .banner-img img {
+        margin-left: -15px;
+    }
+    #banner .banner-content {
+        margin-left: 45px;
+    }
+    #banner .banner-content {
+        padding-top: 0 ;
+    }
+    #banner .banner-content h6 {
+        font-size: 20px ;
+        margin-left: 0px ;
+    }
+    #banner .banner-content h1 {
+        font-size: 200px ;
+        margin: -24px -7px ;
+    }
+    #banner .banner-content p {
+        font-size : 16px;
+        margin-top : 10px;
+        margin-right : 25px;
+        padding : 0;
+    }
+    #banner .banner-content a {
+        margin-left: 65px;
+    }
+    .button {
+        padding: 6px 28px;
+        font-size: 24px;
+    }
+    #game .entry-part {
+        transform: translateY(-50%);
+    }
+    #game .entry-part .box {
+        padding: 25px 0;
+    }
+    #game .entry-part .box h2 {
+        font-size: 36px;
+    }
+    #game .entry-part .box h4 {
+        font-size: 28px;
+    }
+    #game .entry-part .box p {
+        font-size: 16px;
+    }
+    #game .game-img .overlay .content h4 {
+        font-size: 21px;
+        margin: 24px 0;
+    }
+    #game .game-img .overlay .content a {
+        padding: 5px 15px;
+        font-size: 20px;
+    }
+    #spin {
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+    #spin .spin-img{
+        margin-top: 40px;
+        text-align: center;
+    }
+    #spin .spin-img img{
+        width: 65%;
+    }
+    #spin .spin-content {
+        padding-top: 45px;
+        margin-left: 66px;
+    }
+    #spin .spin-content .heading {
+        margin-bottom: 35px;
+        margin-left: -40px;
+        text-align: center;
+    }
+    #pricing {
+        padding-bottom: 60px;
+    }
+    #pricing .price-box {
+        margin-top: 55px;
+    }
+    #question {
+        padding-top: 50px;
+        padding-bottom: 65px;
+    }
+    #question .question-part {
+        margin-bottom: 60px;
+    }
+    #question .tournament .timer{
+        margin-left: 120px;
+    }
+    #payment form {
+        margin-bottom: 30px;
+    }
+}
+/*  medium end */
+/*  large start */
+@media (min-width: 992px) and (max-width: 1199px){
+    .navbar .navbar-nav .nav-item .nav-link {
+        font-size: 16px;
+        margin-right: 13px;
+    }
+    #banner .banner-img img {
+        margin-left: -28px;
+    }
+    #banner .banner-content h1 {
+        font-size: 310px;
+    }
+    #banner .banner-content a {
+        margin-left: 140px;
+    }
+    #question .tournament .timer {
+        padding-left: 128px;
+        font-size: 18px;
+    }
+    #question .tournament .timer .time {
+        margin-left: 15px;
+    }
+    #payment .p-list ul li {
+        margin-right: 5px;
+    }
+    #footer .jackpot ul li a {
+        padding: 10px 2px;
+    }
+}
+/*  large end */
+/*  extra large start */
+@media (min-width: 1200px) and (max-width: 1399px){
+    #pricing .price-box .choose {
+        left: 27%;
+        bottom: -4%;
+    }
+}
+/*  extra large end */

@@ -1,0 +1,660 @@
+/* 
+    ==Table of content==
+
+    1. common css
+    2. navbar css
+    3.modal css
+    4.banner css
+    5.game css
+    6.spin css
+    7.pricing css
+    8.question css
+    9.payment css
+    10.footer css
+    11.copy css
+    12.back-top css
+
+*/
+* {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  vertical-align: middle;
+}
+/* common css*/
+.heading {
+  font-family: 'Anton', sans-serif;
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #fdb125 ;
+  background: -webkit-linear-gradient(90deg, #fdb125 20%, #e07e1e 51%, #fcb100 54%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 0px 70px rgba(255, 0, 228, 0.4);
+}
+.button {
+  background: -webkit-linear-gradient(90deg, #570dc8, #9e4efc);
+  padding: 10px 30px;
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  line-height: 54px;
+  text-shadow: 4px 5px 1px rgba(15, 0, 14, 0.4);
+  box-shadow: 0px 6px 2px #3a0090;
+  transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+}
+.button:hover {
+  background: -webkit-linear-gradient(90deg, #a60084, #ff39dc);
+  box-shadow: 0px 6px 2px #661355;
+}
+/* variable css*/
+/* mixin css*/
+/* extend css*/
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+}
+.navbar .navbar-nav .nav-item {
+  padding-top: 80px;
+}
+.navbar .navbar-nav .nav-item .btn {
+  background: -webkit-linear-gradient(90deg, #570dc8, #9e4efc);
+  margin-left: 25px;
+  margin-top: -15px;
+  padding: 10px 25px;
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+  text-transform: capitalize;
+  text-shadow: 4px 5px 1px rgba(15, 0, 14, 0.4);
+  box-shadow: 0px 6px 2px #3a0090;
+  border-bottom: none;
+  transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+}
+.navbar .navbar-nav .nav-item .btn:hover {
+  background: -webkit-linear-gradient(90deg, #a60084, #ff39dc);
+  box-shadow: 0px 6px 2px #661355;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  font-family: 'Nunito', sans-serif;
+  color: #9e4efc;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-right: 35px;
+  transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #ff39dc;
+}
+.fixed-nav {
+  position: fixed;
+  top: -25px;
+  left: 0;
+  z-index: 9999;
+  background: rgba(252, 177, 14, 0.85);
+  animation: smothly 1s linear;
+}
+@keyframes smothly {
+  0% {
+    top: -50px;
+  }
+  100% {
+    top: 0;
+  }
+}
+.modal {
+  background: rgba(20, 0, 51, 0.85);
+}
+.modal .modal-content {
+  background: rgba(252, 177, 14, 0.8);
+}
+.modal .modal-content .modal-header {
+  border-bottom: none;
+}
+.modal .modal-content .modal-header .modal-title {
+  margin-left: 140px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.modal .modal-content .modal-body .form-group {
+  padding: 10px;
+}
+.modal .modal-content .modal-footer {
+  border-top: none;
+}
+.modal .modal-content .modal-footer button {
+  text-transform: capitalize;
+  background: -webkit-linear-gradient(90deg, #a60084, #ff39dc);
+  border: none;
+}
+/*navbar start*/
+/*banner start*/
+#banner {
+  background: #150035;
+  position: relative;
+  padding-top: 160px;
+  padding-bottom: 190px;
+}
+#banner .banner-img {
+  margin-top: 30px;
+}
+#banner .banner-img img {
+  margin-left: -50px;
+}
+#banner .banner-content {
+  padding-top: 70px;
+}
+#banner .banner-content h6 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-left: 10px;
+}
+#banner .banner-content h1 {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  font-size: 330px;
+  color: #fdb125 ;
+  margin: -50px 0;
+  text-shadow: 2px 20px 0px rgba(15, 0, 14, 0.4), 0px 0px 100px rgba(255, 0, 228, 0.4);
+}
+#banner .banner-content p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 25px;
+  padding: 0 30px;
+}
+#banner .banner-content a {
+  color: #ffffff;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+/*banner end*/
+/*game start*/
+#game {
+  background: #0b001b;
+  padding-bottom: 90px;
+  position: relative;
+}
+#game .entry-part {
+  transform: translateY(-50%);
+  clip-path: polygon(0 7%, 100% 0%, 100% 100%, 0 93%);
+}
+#game .entry-part .box {
+  background: #570dc8;
+  padding: 30px 0;
+  box-shadow: -5px 0px 20px 0px rgba(0, 0, 0, 0.25) !important;
+}
+#game .entry-part .box h2 {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-size: 50px;
+  background: -webkit-linear-gradient(90deg, #fdb125 20%, #e07e1e 51%, #fcb100 54%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 0px 70px rgba(255, 0, 228, 0.4);
+}
+#game .entry-part .box h4 {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-size: 32px;
+}
+#game .entry-part .box p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+#game .heading {
+  margin-top: -45px;
+  margin-bottom: 55px;
+  text-align: center;
+}
+#game .game-img {
+  position: relative;
+  overflow: hidden;
+}
+#game .game-img .overlay {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(20, 0, 51, 0.85);
+  transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+}
+#game .game-img .overlay .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#game .game-img .overlay .content h4 {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-size: 24px;
+  margin: 50px 0;
+}
+#game .game-img .overlay .content a {
+  color: #fff;
+}
+#game .game-img:hover .overlay {
+  left: 0;
+}
+/*game end*/
+/*spin start*/
+#spin {
+  background: #150035;
+  padding-top: 90px;
+  padding-bottom: 60px;
+}
+#spin .spin-content {
+  padding-top: 75px;
+  margin-left: 75px;
+}
+#spin .spin-content .heading {
+  margin-bottom: 50px;
+}
+#spin .spin-content p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 26px;
+  padding-bottom: 20px;
+}
+#spin .spin-content a {
+  color: #ffffff;
+  margin-top: 30px !important;
+}
+/*spin end*/
+/*pricing start*/
+#pricing {
+  background: #0b001b;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+#pricing .heading {
+  text-align: center;
+}
+#pricing .price-box {
+  background: -webkit-linear-gradient(90deg, #570dc8, #9e4efc);
+  text-align: center;
+  border-radius: 5px;
+  position: relative;
+  margin-top: 70px;
+  transition: all linear 0.5s;
+  -moz-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+}
+#pricing .price-box:hover {
+  transform: translateY(-5%);
+}
+#pricing .price-box:hover .head {
+  display: block;
+}
+#pricing .price-box:hover .choose a {
+  background: -webkit-linear-gradient(90deg, #a60084, #ff39dc);
+  box-shadow: 0px 6px 2px #661355;
+}
+#pricing .price-box .head {
+  background: -webkit-linear-gradient(90deg, #a60084, #ff39dc);
+  box-shadow: 0px 5px 2px #661355;
+  border-radius: 5px;
+  display: none;
+  transition: all linear 0.5s;
+  -moz-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+}
+#pricing .price-box .head h5 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  text-shadow: 2px 4px 1px rgba(15, 0, 14, 0.4);
+  padding: 15px 0;
+}
+#pricing .price-box .plan {
+  padding-top: 30px;
+  border-bottom: 1px solid rgba(11, 0, 27, 0.25);
+}
+#pricing .price-box .plan h2 {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-size: 32px;
+  text-shadow: 2px 4px 1px rgba(15, 0, 14, 0.4);
+}
+#pricing .price-box .plan span {
+  font-family: 'Nunito', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+}
+#pricing .price-box .plan p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: -12px;
+}
+#pricing .price-box .list {
+  padding: 20px 0;
+  margin-right: 30px;
+}
+#pricing .price-box .list ul li {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  padding-bottom: 15px;
+}
+#pricing .price-box .choose {
+  position: absolute;
+  left: 23%;
+  bottom: -4%;
+}
+#pricing .price-box .choose a {
+  color: #ffffff;
+}
+/*pricing end*/
+/*question start*/
+#question {
+  background: #150035;
+  padding-top: 90px;
+  padding-bottom: 100px;
+}
+#question .heading {
+  text-align: center;
+  position: relative;
+}
+#question .heading::after {
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #000;
+  position: absolute;
+  top: 76px;
+  left: 0 ;
+}
+#question .question-part {
+  margin-top: 90px;
+}
+#question .question-part .accordion .accordion-item {
+  margin-bottom: 20px;
+}
+#question .question-part .accordion .accordion-item .accordion-button {
+  background: #150035;
+  box-shadow: none;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+}
+#question .question-part .accordion .accordion-item .accordion-collapse .accordion-body {
+  background: #150035;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+}
+#question .tournament {
+  position: relative;
+  margin-top: 80px ;
+}
+#question .tournament .timer {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 20px;
+  position: relative;
+  color: #fff;
+  width: 100%;
+  padding-left: 180px;
+  margin-bottom: 55px;
+}
+#question .tournament .timer .time-intro {
+  position: absolute;
+  left: 0;
+  top: 24px;
+}
+#question .tournament .timer .time {
+  color: #fcb100;
+  border: 1px solid #fcb100;
+  display: inline-block;
+  text-align: center;
+  margin-left: 21px;
+  padding: 6px 7px;
+  border-radius: 5px;
+}
+#question .tournament .timer .time span {
+  width: 100%;
+}
+#question .tournament .players .participant {
+  position: relative;
+  margin: 30px 0;
+}
+#question .tournament .players .participant::after {
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #000;
+  position: absolute;
+  top: 35px;
+  left: 0 ;
+}
+#question .tournament .players .participant img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 20px;
+}
+#question .tournament .players .participant .price {
+  position: absolute;
+  right: 0;
+}
+/*question end*/
+/*payment start*/
+#payment {
+  background: -webkit-linear-gradient(90deg, #570dc8, #9e4efc);
+  padding: 30px 0;
+}
+#payment .head {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-shadow: 4px 6px 1px rgba(15, 0, 14, 0.4);
+}
+#payment form {
+  display: flex;
+  width: 80%;
+  margin-top: 20px;
+}
+#payment form #mail {
+  background: transparent;
+  border: 2px solid #570dc8;
+  box-shadow: none;
+}
+#payment form button {
+  background: transparent;
+  border: 2px solid #570dc8;
+  box-shadow: none;
+  border-left: none;
+  width: 10%;
+  line-height: 36px;
+}
+#payment form button i {
+  color: #570dc8;
+}
+#payment .p-list {
+  margin-top: 20px;
+}
+#payment .p-list ul li {
+  display: inline-block;
+  margin-right: 20px;
+  cursor: pointer;
+}
+/*payment end*/
+/*footer start*/
+#footer {
+  background: #0b001b;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+#footer .head {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-size: 32px;
+}
+#footer .jackpot p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 26px;
+  margin: 25px 0;
+  font-weight: 200;
+}
+#footer .jackpot ul li {
+  display: inline-table;
+  margin-right: 15px;
+}
+#footer .jackpot ul li a {
+  padding: 10px 5px;
+  font-size: 20px;
+  border-radius: 0;
+  text-align: center;
+}
+#footer .jackpot ul li a i {
+  color: #ffffff;
+  width: 50px;
+  height: 50px;
+}
+#footer .link {
+  margin-top: 25px;
+}
+#footer .link ul li {
+  margin-bottom: 15px;
+}
+#footer .link ul li a {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+#footer .security {
+  margin-top: 25px;
+}
+#footer .security Ul li {
+  margin-bottom: 26px;
+  position: relative;
+}
+#footer .security Ul li:first-of-type {
+  margin-bottom: 30px;
+}
+#footer .security Ul li span {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-weight: 600;
+  position: absolute;
+  top: 15px;
+  left: 100px;
+}
+/*footer end*/
+#copy {
+  background: #0b001b;
+  border-top: 1px solid #150035;
+}
+#copy .content p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 54px;
+  text-transform: capitalize;
+}
+/*copy end*/
+.back_to_top {
+  width: 50px;
+  height: 50px;
+  background: -webkit-linear-gradient(90deg, #a60084, #ff39dc);
+  cursor: pointer;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  border-radius: 50%;
+  display: none;
+  z-index: 99999;
+}
+.back_to_top i {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #353535;
+  font-weight: 700;
+  font-size: 25px;
+}
+/*back-top end*/
