@@ -63,7 +63,7 @@
         font-size: 20px;
     }
     .heading h2{
-        font-size: 36px;
+        font-size: 32px;
     }
     #game .entry-part {
         transform: translateY(-15%);
@@ -79,12 +79,12 @@
         font-size: 32px;
     }
     #game .game-img .overlay .content h4 {
-        font-size: 16px;
-        margin: 18px 0;
+        font-size: 13px;
+        margin: 14px 0;
     }
     #game .game-img .overlay .content a {
-        padding: 7px 14px;
-        font-size: 16px;
+        padding: 5px 12px;
+        font-size: 13px;
     }
     #game .entry-part .box p {
         font-size: 12px;
@@ -128,11 +128,11 @@
         font-size: 16px;
     }
     #question .tournament .timer .time {
-        margin-left: 10px;
+        margin-left: 5px;
         margin-top: 10px;
     }
     #question .tournament .timer {
-        padding-left: 140px;
+        padding-left: 128px;
     }
     #payment form {
         margin-bottom: 30px;
@@ -146,6 +146,17 @@
     }
     #footer .link ul li {
         margin-bottom: 5px;
+    }
+    #footer .jackpot ul li a i {
+        width: 40px;
+        height: 40px;
+    }
+    #footer .link ul li a {
+        font-size: 14px;
+    }
+    #footer .security Ul li span {
+        font-size: 14px;
+        left: 90px;
     }
     .back_to_top {
         right: 10px;
